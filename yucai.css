@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: arial;
+}
+*:focus {
+  outline: none;
+}
+*:hover {
+  color: red;
+}
+body {
+  margin: 0;
+  font-size: 0;
+  -webkit-text-size-adjust:none;
+}
+.themeColor {
+  background-color: rgba(38,38,38,1.0);
+}
+.header {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+.header .warp {
+  width: 960px;
+  height: 120px;
+  margin: 0 auto;  //居中
+}
+.header .warp a {
+  color: transparent;
+}
+.header .logo {
+  margin-top: 20px;
+  float: left;
+  width: 258px;
+  height: 79px;
+  background: url(./img/logo.png) no-repeat left top;
+  border-color: transparent;
+}
+.themeColor .skin {
+  float: left;
+  padding-left: 10px;
+  padding-top: 65px;
+}
+.themeColor .skin li {
+  display: block;
+  margin-left: 5px;
+  width: 10px;
+  height: 9px;
+  float: left;
+  list-style-type: none;
+}
+.themeColor .skin li:hover {
+  opacity: 0.8;
+}
+.themeColor .skin li a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}
+.themeColor .skin .red {
+  background-color: red;
+}
+.themeColor .skin .green {
+  background-color: green;
+}
+.themeColor .skin .gray {
+  background-color: gray;
+}
+.warp .other_tools {
+  float: right;
+  background-color: transparent;
+  width: 300px;
+  text-align: right;
+}
+.warp .other_tools .quick_menu {
+  margin-top: 25px;
+  height: 30px;
+}
+.warp .other_tools .quick_menu a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+.warp .other_tools .searchBox {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.warp .other_tools .searchInput {
+  background: url(./img/icon_search.png) no-repeat left center;
+  background-size:15px 15px;
+  background-position: 2px;
+  background-color: white;
+  height: 18px;
+  padding-left: 19px;
+  border: solid 1px gray;
+  border-radius: 2px;
+  margin: 0px;
+}
+.warp .other_tools .searchBtn {
+  border-radius: 0;
+  padding: 0;
+  width: 50px;
+  margin-left: 10px;
+  border-width: 1;
+  border-color: gray;
+  border-radius: 2px;
+}
+.classBlock {
+  display: block;
+  width: 100%;
+  height: 32px;
+  background-color: rgb(234, 234, 234);
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+.classBlock .classify {
+  display: block;
+  width: 960px;
+  height: 30px;
+  padding-left: 3px;
+  margin: 0 auto;  //居中
+  justify-content: center;
+}
+.classBlock .classify input {
+  width: 105px;
+  height: 30px;
+  border-width: 0;
+  margin-left: 1px;
+
+}

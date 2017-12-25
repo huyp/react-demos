@@ -1,0 +1,888 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="东北育才学校是1949年由张闻天、徐特立等老一代无产阶级革命家创建的一所具有光荣革命传统的学校，是沈阳市教育局直属的省重点中学,是辽宁省首批示范性高中，全国教育系统先进集体。1993年被市教育局确定为优才教育实验学校。" name="Keywords" />
+  <meta content="东北育才学校是1949年由张闻天、徐特立等老一代无产阶级革命家创建的一所具有光荣革命传统的学校，是沈阳市教育局直属的省重点中学,是辽宁省首批示范性高中，全国教育系统先进集体。1993年被市教育局确定为优才教育实验学校。" name="Description" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <title>东北育才学校校园网</title>
+  <!-- *网站首页-东北育才学校原网站title代码* -->
+  <link href="/Skin/study/default.css" rel="stylesheet" type="text/css" />
+
+  <link id="cssChange" href="/Skin/study/green.css" type="text/css" rel="stylesheet">
+
+  <script language="javascript" type="text/javascript" src="/js/common.js"></script>
+  <script type="text/javascript" src="/js/jquery.pack.js"></script>
+  <script type="text/javascript" src="/Skin/study/js/jquery.imageScroller.js"></script>
+  <script type="text/javascript" src="/Skin/study/js/color.js"></script>
+
+
+  <script type="text/javascript">
+    <!--
+    /*第一种形式 第二种形式 更换显示样式*/
+    function setTab(name, cursel, n) {
+      for (i = 1; i <= n; i++) {
+        var menu = document.getElementById(name + i);
+        var con = document.getElementById("con_" + name + "_" + i);
+        menu.className = i == cursel ? "hover" : "";
+        con.style.display = i == cursel ? "block" : "none";
+      }
+    }
+    //-->
+  </script>
+  <script type="text/javascript">
+    $(function() {
+      $("#viewer").imageScroller({
+        next: "btn1",
+        prev: "btn2",
+        frame: "viewerFrame",
+        width: 160,
+        child: "li",
+        auto: true
+      });
+    });
+
+
+
+    $(function() {
+      $("#viewer2").imageScroller({
+        next: "btn3",
+        prev: "btn4",
+        frame: "viewerFrame2",
+        width: 160,
+        child: "li",
+        auto: true
+      });
+    });
+
+    $(function() {
+      $("#viewer3").imageScroller({
+        next: "btn5",
+        prev: "btn6",
+        frame: "viewerFrame3",
+        width: 160,
+        child: "li",
+        auto: true
+      });
+    });
+
+    $(function() {
+      $("#viewer4").imageScroller({
+        next: "btn7",
+        prev: "btn8",
+        frame: "viewerFrame4",
+        width: 160,
+        child: "li",
+        auto: true
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <div class="outbox">
+
+    <div class="wrapp">
+      <div class="logo"><a href="/" title="东北育才学校"></a></div>
+      <div class="change_skin">
+        <ul id="Skin">
+          <li class="red"><a title="红色"></a></li>
+          <li class="green"><a title="绿色"></a></li>
+          <li class="light"><a title="灰色"></a></li>
+        </ul>
+        <script type="text/javascript">
+          formatSkin();
+          setdefSkin();
+        </script>
+      </div>
+      <div class="other_tool">
+        <div class="quick_menu">
+          <a href="/" title="东北育才校园网首页">网站首页</a><a href="/Category_399/Index.aspx" title="育才掠影" target="_blank">育才掠影</a><a href="/Category_1432/Index.aspx" title="视频在线" target="_blank">视频在线</a><a href="/Category_1431/Index.aspx" title="网站地图" target="_blank">网站地图</a>
+          <a
+            href="/english/ko_index.html" target="_blank">한국어</a><a href="/Category_1451/Index.aspx" class="english" title="English" target=_blank></a>
+
+        </div>
+        <div class="clear"></div>
+        <div class="search">
+
+
+          <label><input id="keyword" onfocus="this.value='';" maxlength="100" size="30" value="全文搜索" name="Keyword" /></label>
+          <label><input id="Submit"  type="button"  name="Submit" onclick="OnSearchCheckAndSubmit();" /></label>
+
+
+          <script language="javascript" type="text/javascript">
+            function OnSearchCheckAndSubmit() {
+              var keyword = document.getElementById("keyword").value;
+              if (keyword == '' || keyword == null) {
+                alert("请填写您想搜索的关键词");
+                return;
+              } else {
+
+                window.location = "/search.aspx?searchtype=0&Keyword=" + escape(keyword);
+              }
+            }
+          </script>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="menu">
+        <div id="menubox" class="main_menu">
+          <ul>
+            <li id="Con_397"><a onmouseover="displaySubMenu(397)" href="/Category_397/Index.aspx">新闻焦点</a></li>
+            <li id="Con_1397"><a onmouseover="displaySubMenu(1397)" href="/Category_1397/Index.aspx">校务信息</a></li>
+            <li id="Con_1400"><a onmouseover="displaySubMenu(1400)" href="/Category_1400/Index.aspx">教育教学</a></li>
+            <li id="Con_1425"><a onmouseover="displaySubMenu(1425)" href="/Category_1425/Index.aspx">教师园地</a></li>
+            <li id="Con_1403"><a onmouseover="displaySubMenu(1403)" href="/Category_1403/Index.aspx">学生天地</a></li>
+            <li id="Con_1398"><a onmouseover="displaySubMenu(1398)" href="/Category_1398/Index.aspx">优才巡礼</a></li>
+            <li id="Con_1419"><a onmouseover="displaySubMenu(1419)" href="/Category_1419/Index.aspx">对外交流</a></li>
+            <li id="Con_1405"><a onmouseover="displaySubMenu(1405)" href="/Category_1405/Index.aspx">党委团委少工委</a></li>
+            <li id="Con_1404"><a onmouseover="displaySubMenu(1404)" href="/Category_182/Index.aspx">育才校友</a></li><span></span></ul>
+        </div>
+        <div class="clear"></div>
+        <div class="sub_menu">
+          <div id="menu_list_397">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_1/Index.aspx">校园新闻</a><a href="/Category_2/Index.aspx">前沿资讯</a><a href="/Category_3/Index.aspx">头版头条</a><a href="/Category_17/Index.aspx">通知通告</a><a href="/Category_361/Index.aspx">电子校报</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1397">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_4/Index.aspx">周工作安排</a><a href="/Category_84/Index.aspx">发展历程</a><a href="/Category_1402/Index.aspx">招生招聘</a><a href="/Category_1424/Index.aspx">特色育才</a><a href="/Category_1430/Index.aspx">集团架构</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1400">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_51/Index.aspx">教育科研</a><a href="/Category_1438/Index.aspx">制度法规</a><a href="/Category_1439/Index.aspx">主题活动</a><a href="/Category_1440/Index.aspx">特色课程</a><a href="/Category_1488/Index.aspx">家教活动</a><a href="/Category_1489/Index.aspx">心理活动</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1425">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_1426/Index.aspx">资源下载</a><a href="/Category_1427/Index.aspx">读书读报</a><a href="/Category_1428/Index.aspx">教师研训</a><a href="/blog/index.aspx">教师博客</a><a href="/Category_1441/Index.aspx">教师风采</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1403">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_61/Index.aspx">原创作品</a><a href="/Category_182/Index.aspx">育才校友</a><a href="/Category_352/Index.aspx">成长感言</a><a href="/Category_1453/Index.aspx">社团活动</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1398">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_54/Index.aspx">教师荣誉</a><a href="/Category_55/Index.aspx">中考高考</a><a href="/Category_56/Index.aspx">学科竞赛</a><a href="/Category_57/Index.aspx">学校荣誉</a><a href="/Category_69/Index.aspx">校刊校报</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1419">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_58/Index.aspx">国际交流</a><a href="/Category_59/Index.aspx">国内交流</a><a href="/Category_60/Index.aspx">国际教育</a><a href="/Category_68/Index.aspx">模拟联合国</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1405">
+            <div class="sub_menu_left"></div>
+            <div class="sub_center">
+              <a href="/Category_64/Index.aspx">党的建设</a><a href="/Category_65/Index.aspx">团的建设</a><a href="/Category_1442/Index.aspx">队的建设</a>
+            </div>
+            <div class="sub_menu_right"></div>
+          </div>
+          <div id="menu_list_1404"></div>
+        </div>
+        <div class="clear"></div>
+        <script type="text/javascript">
+          var currentIndex = 0
+
+          function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+              window.onload = func;
+            } else {
+              window.onload = function() {
+                oldonload();
+                func();
+              }
+            }
+          }
+
+
+          function menuhover() {
+            var menu = document.getElementById("menubox");
+            var links = menu.getElementsByTagName("li");
+            for (c = 0; c < links.length; c++) {
+              links[c].onmouseover = function() {
+                for (m = 0; m < links.length; m++) {
+                  links[m].className = '';
+                }
+                this.className = 'Classon';
+              }
+            }
+          }
+
+          function displaySubMenu(id) {
+
+            if (document.getElementById("menu_list_" + 397) != null) {
+              document.getElementById("menu_list_" + 397).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1397) != null) {
+              document.getElementById("menu_list_" + 1397).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1400) != null) {
+              document.getElementById("menu_list_" + 1400).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1425) != null) {
+              document.getElementById("menu_list_" + 1425).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1403) != null) {
+              document.getElementById("menu_list_" + 1403).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1398) != null) {
+              document.getElementById("menu_list_" + 1398).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1419) != null) {
+              document.getElementById("menu_list_" + 1419).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1405) != null) {
+              document.getElementById("menu_list_" + 1405).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + 1404) != null) {
+              document.getElementById("menu_list_" + 1404).style.display = "none";
+            }
+
+            if (document.getElementById("menu_list_" + id) != null) {
+              document.getElementById("menu_list_" + id).style.display = "block";
+            }
+          }
+          displaySubMenu(0);
+          addLoadEvent(menuhover);
+        </script>
+      </div>
+    </div>
+  </div>
+  <!--网站广告开始--->
+  <div class="wrapp">
+    <div class="bannner">
+      <dl>
+        <dt></dt>
+        <dd>
+
+          <div class="sevice">
+            <script type="text/javascript" src='/IAA/200912/1.js'></script>
+          </div>
+
+
+
+
+
+
+        </dd>
+        <dt class="bottom"></dt>
+      </dl>
+    </div>
+  </div>
+  <!--网站广告结束-->
+  <!--网站正文开始--->
+  <div class="wrapp">
+
+    <div class="main">
+      <!--左侧开始--->
+      <div class="main_right">
+        <!--用户开始-->
+        <div class="user_login">
+          <h3>用户登录</h3>
+          <div id="LoginFrom" class="Login_ajax" onkeypress="javascript:return DefaultButton(event, 'BtnLogOn')">
+            <script type="text/javascript" language="JavaScript">
+              function RefreshValdisplayDateCodeImage(ValdisplayDateCodeImageControl) {
+                ValdisplayDateCodeImageControl.src = ValdisplayDateCodeImageControl.src + '?code=' + RandomNum(10);
+              }
+
+              function RandomNum(n) {
+                var rnd = '';
+                for (var i = 0; i < n; i++)
+                  rnd += Math.floor(Math.random() * 10);
+                return rnd;
+              }
+
+              function DefaultButton(event, linkOpenType) {
+                if (event.keyCode == 13 && !(event.srcElement && (event.srcElement.tagName.toLowerCase() == "textarea"))) {
+                  var defaultButton = $(linkOpenType);
+                  if (defaultButton && typeof(defaultButton.click) != "undefined") {
+                    defaultButton.click();
+                    event.cancelBubble = true;
+                    if (event.stopPropagation)
+                      event.stopPropagation();
+                    return false;
+                  }
+                }
+                return true;
+              }
+            </script>
+            <ul>
+              <li>用户名：<input name="TxtUserName" type="text" maxlength="20" id="TxtUserName" class="inputtext" style="width: 124px;" /></li>
+              <li>密　码：<input name="TxtPassword" type="password" id="TxtPassword" class="inputtext" style="width: 124px;" /></li>
+              <li id="checkcode">验证码：<input name="TxtValdisplayDateCode" type="text" maxlength="6" value="" id="TxtValdisplayDateCode" class="inputtext" onfocus="this.select();" style="width: 55px;" /><img id="VcodeLogOn" title="看不清楚，换一个" onclick="RefreshValdisplayDateCodeImage(this);"
+                  src="/Controls/ValidateCodeImage.aspx" align="absmiddle" style="border-width: 0px; cursor: hand;" /></li>
+              <li style="display:none;">Cookie：
+                <select name="DropExpiration" id="DropExpiration">
+          <option value="None">不保存</option>
+          <option value="Day">保存一天</option>
+          <option value="Month">保存一月</option>
+          <option value="Year">保存一年</option>
+    </select>
+              </li>
+              <li id="loginButton">
+                <input type="submit" name="BtnLogOn" value="登录" id="BtnLogOn" onclick="Login();" class="inputbutton" />
+                <a href="/User/Register.aspx" linkOpenType="_top">注册</a>
+                <a href="/User/GetPassword.aspx" linkOpenType="_top">找回密码</a>
+              </li>
+
+              <div class="clearbox"></div>
+            </ul>
+          </div>
+          <div id="PnlLogOnStatus" class="Login_ajax"></div>
+          <script language="javascript" type="text/javascript">
+            CheckIsLogin();
+
+            function Loginin(LoginString) {
+              document.getElementById("LoginFrom").innerHTML = document.getElementById("LoginFrom").innerHTML + LoginString;
+            }
+
+            function CheckIsLogin() {
+              document.getElementById("PnlLogOnStatus").innerHTML = "<img src=\"/Skin/study/Images/loading.gif\" alt=\"\"/>";
+              var x = new AjaxRequest('XML', 'status');
+              x.para = [];
+              x.post('logincheck', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+
+                if (status == 'ok') {
+                  document.getElementById("PnlLogOnStatus").style.display = "";
+                  document.getElementById("LoginFrom").style.display = "none";
+                  document.getElementById("PnlLogOnStatus").innerHTML = GetUserInfo(xml);
+                } else {
+                  document.getElementById("PnlLogOnStatus").style.display = "none";
+                  document.getElementById("LoginFrom").style.display = "";
+                  CheckEnableValidCode();
+                }
+              });
+            }
+
+            function GetUserInfo(xml) {
+              var userInfo = "<div class=\"u_login\">" + xml.getElementsByTagName("username")[0].firstChild.data + "，您好！您有：<br/>";
+              userInfo = userInfo + "资金余额：" + xml.getElementsByTagName("balance")[0].firstChild.data + " 元<br/>";
+              userInfo = userInfo + "经验积分：" + xml.getElementsByTagName("exp")[0].firstChild.data + " 分<span></span>";
+              userInfo = userInfo + "待阅短信：" + xml.getElementsByTagName("msg")[0].firstChild.data + " 条<br/>";
+              userInfo = userInfo + "登录次数：" + xml.getElementsByTagName("logintimes")[0].firstChild.data + " 次<span></span>";
+              userInfo = userInfo + "可用" + xml.getElementsByTagName("pointname")[0].firstChild.data + "：" + xml.getElementsByTagName("point")[0].firstChild.data + " " + xml.getElementsByTagName("pointunit")[0].firstChild.data + "<br/>";
+              <!--userInfo = userInfo + "待签文章：" + xml.getElementsByTagName("signincontent")[0].firstChild.data + " 篇<br/>";-->
+              userInfo = userInfo + "<div style=\"text-align: center\"><a href=\"/User/Default.aspx\" linkOpenType=\"_top\">会员中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;";
+              userInfo = userInfo + "<a href=\"#\"  onclick=\"loginout()\" linkOpenType=\"_top\">退出登录</a></div>";
+              userInfo = userInfo + "</div>";
+              return userInfo;
+            }
+
+            function loginout() {
+              var x = new AjaxRequest('XML', '');
+              x.post('userlogout', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+                if (status == "ok") {
+                  if (xml.getElementsByTagName("API_Enable")[0].firstChild.data == "1") {
+                    var LogOutString = xml.getElementsByTagName("LogOutString")[0].firstChild.data;
+                    Loginin(LogOutString);
+                  }
+                }
+                document.getElementById("TxtUserName").value = '';
+                document.getElementById("TxtPassword").value = '';
+                CheckEnableValidCode();
+                var VcodeLogOn = document.getElementById("VcodeLogOn");
+                if (VcodeLogOn != null) {
+                  RefreshValdisplayDateCodeImage(VcodeLogOn);
+                }
+                document.getElementById("DropExpiration").value = 'None';
+                document.getElementById("PnlLogOnStatus").style.display = "none";
+                document.getElementById("LoginFrom").style.display = "";
+              });
+            }
+
+            function CheckEnableValidCode() {
+              var x = new AjaxRequest('XML', 'status');
+              x.para = [];
+              x.post('EnableValidCode', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+                if (status == "yes") {
+                  document.getElementById("checkcode").style.display = '';
+                  document.getElementById("TxtValdisplayDateCode").value = '';
+                }
+              });
+            }
+
+            function Login() {
+              if (document.getElementById("TxtUserName").value == '') {
+                alert("请填写用户名！");
+                document.getElementById("TxtUserName").focus();
+                return;
+              }
+              if (document.getElementById("TxtPassword").value == '') {
+                alert("请填写密码！");
+                document.getElementById("TxtPasssword").focus();
+                return;
+              }
+
+              if (document.getElementById("checkcode").style.display == "") {
+                if (document.getElementById("TxtValdisplayDateCode").value == '') {
+                  alert("请填写验证码！");
+                  document.getElementById("TxtValdisplayDateCode").focus();
+                  return;
+                }
+              }
+              var x = new AjaxRequest('XML', 'status');
+              x.para = ['username=' + document.getElementById("TxtUserName").value, 'password=' + document.getElementById("TxtPassword").value, 'checkcode=' + document.getElementById("TxtValdisplayDateCode").value, 'expiration=' + document.getElementById(
+                "DropExpiration").value];
+              x.post('userlogin', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+                switch (status) {
+                  case "ok":
+                    if (xml.getElementsByTagName("API_Enable")[0].firstChild.data == "1") {
+                      var LoginString = xml.getElementsByTagName("LoginString")[0].firstChild.data;
+                      Loginin(LoginString);
+                    }
+                    CheckIsLogin();
+                    break;
+                  case "err":
+                    var errorMessage = xml.getElementsByTagName("body")[0].firstChild.data;
+                    alert(errorMessage);
+                    break;
+                }
+
+              });
+            }
+          </script>
+        </div>
+        <!--用户结束-->
+        <!--工具栏开始-->
+        <div class="study_tool">
+          <a href="/Category_1402/Index.aspx" title="招生招聘" target="_blank"><img src="/Skin/study/images/zs.gif" alt="招生招聘" /></a>
+          <a href="/Category_400/Index.aspx" title="校长信箱" target="_blank"><img src="/Skin/study/images/Email.gif"  alt="校长信箱"/></a>
+          <a href="/Category_1445/Index.aspx" title="联系方式" target="_blank"><img src="/Skin/study/images/link.gif" alt="联系方式"/></a>
+        </div>
+        <!--工具栏结束-->
+        <!--快速链接开始-->
+        <div class="quick_link">
+          <h3>快速链接</h3>
+          <ul>
+            <li><a href="http://office.neyc.cn:8080" title="数字办公" target="_blank"><img src="/Skin/study/images/oa.gif" alt="数字办公" /></a></li>
+            <!--
+  <li><a href="http://10.1.60.38/esweb" title="网上邮局" target="_blank"><img src="/Skin/study/images/post.gif"  alt="网上邮局"/></a></li>
+-->
+            <li><a href="http://10.1.60.38/esweb" title="名师工程（内网访问）" target="_blank"><img src="http://www.neyc.cn/UploadFiles/englishsite/2012/11/201211271356259791.gif"  alt="名师工程"/></a></li>
+            <li><a href="http://10.1.60.18/Usp/" title="网上图书" target="_blank"><img src="/Skin/study/images/book.gif" alt="网上图书"/></a></li>
+
+            <!-- <li>
+
+<a href="/Category_1426/Index.aspx" title="资源服务" target="_blank"><img src="/Skin/study/images/down.gif" alt="资源服务"/></a>
+</li>-->
+            <li>
+              <a href="/Category_1565/Index.aspx" title="育才双语十年校庆" target="_blank"><img src="/UploadFiles/student/2016/1/201601041507554641.gif" alt="育才双语十年校庆"/></a>
+              <!--<a href="/Category_0/Index.aspx" title="社团活动" target="_blank"><img src="/UploadFiles/student/2013/6/201306051024543838.gif" alt="社团活动"/></a>-->
+            </li>
+            <li>
+              <a href="/Category_1483/Index.aspx" target="_blank" "><img src="/Skin/study/images/xinjiang.gif " alt="新疆部之窗 "/></a></li>
+</ul>
+      </div>
+ <!--快速链接结束-->
+  <!--视频点播开始-->
+       <div class="tv mtop10 ">
+       <a href="http://www.neyc.cn/Category_1432/Index.aspx "><h3>视频点播</h3></a>
+<ul>
+<embed width="207 " height="180 " menu="true " loop="true " play="false " wmode="transparent " quality="high " allowfullscreen="true " showmovieinfo="0 " type="application/x-shockwave-flash " src="../editor/plugins/media/swf/player_flv_maxi.swf?file=http://www.neyc.cn/uploadfiles/video/2013xyysjsyzc.flv ">
+</ul>
+
+      </div>
+ <!--视频点播结束-->
+  </div>
+<!--右侧开始--->
+<div class="main_left ">
+<!--头条新闻开始-->
+<div class="news ">
+<div class="news_top "><ul>
+            <li><a href="/Item/22047.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：央视《加油向未来》总决赛 育才同门争夺冠亚军&#xD;点击数：6888&#xD;发表时间：17年12月06日 ">央视《加油向未来》总决赛 育才同门争夺冠亚军</a></li>
+
+</ul></div>
+        <div class="clear "></div>
+<div class="news_any ">
+      <div class="news_flash ">
+        <script type="text/javascript ">
+          var swf_width = 300;
+          var swf_height = 260;
+          var config = '6|0xffffff|0x0099FF|20|0xffffff|0x0099FF|0x000000';//config 设置分别为: 自动播放时间(秒)|文字颜色|文字背景色|文字背景透明度|按键数字色|当前按键色|普通按键色
+          var files = '/UploadFiles/Article/2017/12/201712071424432669.jpg|/UploadFiles/Article/2017/12/201712071416186778.jpg|/UploadFiles/gaozhongbu/2017/12/201712070907397121.jpg|/UploadFiles/Article/2017/12/201712061549525367.jpg|/UploadFiles/fushun/2017/12/201712011432176378.jpg';
+          var links = '/Item/22046.aspx|/Item/22045.aspx|/Item/22044.aspx|/Item/22040.aspx|/Item/22023.aspx';
+          var texts = '人大附中刘彭芝校长到东北育才学校…|集团初中学段语文公开教研活动在初…|高中部师生参加“信息技术与数学教…|央视《加油！向未来》总决赛  育才…|东北育才实验小学学子再获数学世锦…';
+          document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000 " codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0 " width=" ' + swf_width + ' " height=" ' + swf_height + ' ">');
+          document.write('<param name="movie " value="/Skin/study/swf/focus_2.swf ">');
+          document.write('<param name="quality " value="high ">');
+          document.write('<param name="menu " value="false ">');
+          document.write('<param name="wmode " value="opaque ">');
+          document.write('<param name="FlashVars " value="config=' + config + ' &amp;bcastr_flie=' + files + ' &amp;bcastr_link=' + links + ' &amp;bcastr_title=' + texts + ' ">');
+          document.write('<embed src="/Skin/study/swf/focus_2.swf " wmode="opaque " FlashVars="config=' + config + ' &amp;bcastr_flie=' + files + ' &amp;bcastr_link=' + links + ' &amp;bcastr_title=' + texts + ' " menu="false " quality="high
+                " width=" ' + swf_width + ' " height=" ' + swf_height + ' " type="application/x-shockwave-flash " pluginspage="http://www.macromedia.com/go/getflashplayer "></embed>');
+          document.write('</object>');
+        </script>
+      </div>
+      <div class="news_list ">
+<h3>
+<a id="one1 " onmouseover="setTab( 'one',1,4) "  class="hover "><span>校园新闻</span></a><a id="one2 " onmouseover="setTab( 'one',2,4) " ><span>教育动态</span></a><a id="one3 " onmouseover="setTab( 'one',3,4) "><span>通知通告</span></a><a id="one4
+                " onmouseover="setTab( 'one',4,4) "><span>电子校报</span></a></h3>
+
+<ul id="con_one_1 " class="hover ">
+
+            <li><span>12-07</span><a href="/Item/22046.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：人大附中刘彭芝校长到东北育才学校考察交流&#xD;点击数：343&#xD;发表时间：17年12月07日 ">人大附中刘彭芝校长到东北育才学校考察交流</a></li><li><span>12-07</span><a href="/Item/22045.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：集团初中学段语文公开教研活动在初中部举行&#xD;点击数：237&#xD;发表时间：17年12月07日 ">集团初中学段语文公开教研活动在初中部举行</a></li><li><span>12-07</span><a href="/Item/22044.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：高中部师生参加“信息技术与数学教学国际研讨会”并作报告&#xD;点击数：231&#xD;发表时间：17年12月07日
+                ">高中部师生参加“信息技术与数学教学国际研讨会…</a></li><li><span>12-06</span><a href="/Item/22040.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：央视《加油！向未来》总决赛 育才同门兄弟争夺冠亚军&#xD;点击数：624&#xD;发表时间：17年12月06日 ">央视《加油！向未来》总决赛  育才同门兄弟争夺…</a></li><li><span>12-01</span><a href="/Item/22021.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：辽宁省校长任职资格培训班全体学员到我校交流&#xD;点击数：444&#xD;发表时间：17年12月01日 ">辽宁省校长任职资格培训班全体学员到我校交流</a></li><li><span>12-01</span><a href="/Item/22023.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才实验小学学子再获数学世锦赛金牌三枚&#xD;点击数：439&#xD;发表时间：17年12月01日
+                ">东北育才实验小学学子再获数学世锦赛金牌三枚</a></li><li><span>12-01</span><a href="/Item/22015.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校学生在全省信息学竞赛勇夺两项第一&#xD;点击数：664&#xD;发表时间：17年12月01日 ">我校学生在全省信息学竞赛勇夺两项第一</a></li><li><span>12-01</span><a href="/Item/22012.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：国培专家黄宝国教授应邀来双语学校分享教育新理念&#xD;点击数：368&#xD;发表时间：17年12月01日 ">国培专家黄宝国教授应邀来双语学校分享教育新理念</a></li><li><span>11-30</span><a href="/Item/22011.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：“求师得”召开2017结业分享会 清北学子参与&#xD;点击数：411&#xD;发表时间：17年11月30日 ">“求师得”召开2017结业分享会 清北学子参与</a></li>
+
+ </ul>
+
+<ul id="con_one_2 " style="display:none ">
+
+            <li><span>12-01</span><a href="/Item/22013.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：国培专家黄宝国教授应邀来我校分享教育新理念&#xD;点击数：335&#xD;发表时间：17年12月01日 ">国培专家黄宝国教授应邀来我校分享教育新理念</a></li><li><span>11-03</span><a href="/Item/21849.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校开展高中学段高三备考联合教研活动&#xD;点击数：537&#xD;发表时间：17年11月03日 ">我校开展高中学段高三备考联合教研活动</a></li><li><span>10-20</span><a href="/Item/21767.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：请不要压堂，因为压堂不好&#xD;点击数：874&#xD;发表时间：17年10月20日
+                ">请不要压堂，因为压堂不好</a></li><li><span>06-13</span><a href="/Item/21416.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：高校自主招生热度又增 考试更为多样&#xD;点击数：795&#xD;发表时间：17年06月13日 ">高校自主招生热度又增 考试更为多样</a></li><li><span>06-13</span><a href="/Item/21415.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：北大招办：为考生提供一个舞台，而不是一张试卷&#xD;点击数：593&#xD;发表时间：17年06月13日 ">北大招办：为考生提供一个舞台，而不是一张试卷</a></li><li><span>05-12</span><a href="/Item/21243.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：教育部:全方位加强学校安全体系建设&#xD;点击数：515&#xD;发表时间：17年05月12日
+                ">教育部:全方位加强学校安全体系建设</a></li><li><span>05-12</span><a href="/Item/21242.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：教育部：中小学教材不得出现额外教辅链接二维码&#xD;点击数：556&#xD;发表时间：17年05月12日 ">教育部：中小学教材不得出现额外教辅链接二维码</a></li><li><span>05-02</span><a href="/Item/21183.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：《高中阶段教育普及攻坚计划（2017—2020年）》发布&#xD;点击数：570&#xD;发表时间：17年05月02日 ">《高中阶段教育普及攻坚计划（2017—2020年）》…</a></li><li><span>05-02</span><a href="/Item/21182.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：国家版图意识教育拟纳入中小学教学&#xD;点击数：530&#xD;发表时间：17年05月02日 ">国家版图意识教育拟纳入中小学教学</a></li>
+
+</ul>
+
+<ul id="con_one_3 " style="display:none ">
+
+            <li><span>10-16</span><a href="/Item/12899.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才学校出国学生成绩单模板&#xD;点击数：20284&#xD;发表时间：12年10月16日 "><font style="&#xD;&#xA; font-weight:bold;font-style:normal;&#xD;&#xA; &#xD;&#xA; ;&#xD;&#xA;
+                ">东北育才学校出国学生成绩单模板</font></a></li><li><span>11-24</span><a href="/Item/21962.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：湖南结核病疫情，十个你最关心的问题&#xD;点击数：456&#xD;发表时间：17年11月24日 ">湖南结核病疫情，十个你最关心的问题</a></li><li><span>11-24</span><a href="/Item/21960.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：预防学校肺结核，你想知道的都在这里！&#xD;点击数：459&#xD;发表时间：17年11月24日 ">预防学校肺结核，你想知道的都在这里！</a></li><li><span>11-24</span><a href="/Item/21959.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：强化落实执行《学校结核病防控工作规范》（2017年版）&#xD;点击数：452&#xD;发表时间：17年11月24日
+                ">强化落实执行《学校结核病防控工作规范》（2017…</a></li><li><span>11-10</span><a href="/Item/21891.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：巴黎政治大学招生说明会通知&#xD;点击数：481&#xD;发表时间：17年11月10日 ">巴黎政治大学招生说明会通知</a></li><li><span>11-03</span><a href="/Item/21839.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：关于参加2018美国数学竞赛AMC-AIME活动的通知&#xD;点击数：863&#xD;发表时间：17年11月03日
+                "><font style="&#xD;&#xA; color:#e50101;&#xD;&#xA; &#xD;&#xA; font-weight:bold;font-style:normal;&#xD;&#xA; &#xD;&#xA; ;&#xD;&#xA; ">关于参加2018美国数学竞赛AMC-AIME活动的通知</font></a></li><li><span>08-25</span><a href="/Item/21563.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：斯坦福大学、加州大学伯克利分校等六所美国名校招生官将来校举行招生说明会&#xD;点击数：688&#xD;发表时间：17年08月25日 ">斯坦福大学、加州大学伯克利分校等六所美国名校…</a></li><li><span>06-14</span><a href="/Item/21421.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：关于招募“汉语桥——英国中学生夏令营”志愿者的通知&#xD;点击数：715&#xD;发表时间：17年06月14日
+                ">关于招募“汉语桥——英国中学生夏令营”志愿者…</a></li><li><span>05-03</span><a href="/Item/21190.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：美国纽约大学阿布扎比分校招生说明会通知&#xD;点击数：839&#xD;发表时间：17年05月03日 ">美国纽约大学阿布扎比分校招生说明会通知</a></li>
+
+</ul>
+
+<ul id="con_one_4 " style="display:none ">
+
+            <li><span>11-17</span><a href="/Item/21915.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第102期&#xD;点击数：577&#xD;发表时间：17年11月17日 ">《东北育才报》第102期</a></li><li><span>11-17</span><a href="/Item/21914.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：《东北育才报》第101期&#xD;点击数：469&#xD;发表时间：17年11月17日 ">《东北育才报》第101期</a></li><li><span>09-08</span><a href="/Item/21595.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第100期&#xD;点击数：641&#xD;发表时间：17年09月08日
+                ">《东北育才报》第100期</a></li><li><span>05-09</span><a href="/Item/21223.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第99期&#xD;点击数：1097&#xD;发表时间：17年05月09日 ">《东北育才报》第99期</a></li><li><span>03-07</span><a href="/Item/20926.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第98期&#xD;点击数：845&#xD;发表时间：17年03月07日
+                ">《东北育才报》第98期</a></li><li><span>11-25</span><a href="/Item/20680.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第97期&#xD;点击数：935&#xD;发表时间：16年11月25日 ">《东北育才报》第97期</a></li><li><span>10-11</span><a href="/Item/20475.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第96期&#xD;点击数：834&#xD;发表时间：16年10月11日
+                ">《东北育才报》第96期</a></li><li><span>07-13</span><a href="/Item/20241.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第95期&#xD;点击数：1073&#xD;发表时间：16年07月13日 ">《东北育才报》第95期</a></li><li><span>06-21</span><a href="/Item/20106.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：《东北育才报》第94期&#xD;点击数：955&#xD;发表时间：16年06月21日 ">《东北育才报》第94期</a></li>
+
+</ul>
+
+   </div>
+  <div class="clear "></div>
+ </div>
+</div>
+ <!--头条新闻结束-->
+ <!--网站中部广告开始-->
+ <script  type="text/javascript " src='/IAA/200912/2.js'></script>
+ <!--网站中部广告结束-->
+<div class="map_all mtop10 ">
+<h3>校区分布图</h3>
+
+<div class="map_list ">
+
+<script  type="text/javascript " src='/IAA/200912/3.js'></script>
+
+</div>
+
+ </div>
+  <div class="school_dt mtop10 ">
+
+<h3>   <a id="two1 " onmouseover="setTab( 'two',1,4) "  class="hover ">学部动态</a><a id="two2 " onmouseover="setTab( 'two',2,4) " > 聚焦高考</a><a id="two3 " onmouseover="setTab( 'two',3,4) ">关注竞赛</a><a id="two4 " onmouseover="setTab( 'two',4,4) ">国际教育</a></h3>
+<ul id="con_two_1 " class="hover ">
+
+
+            <li><span>12-14</span><a href="/Item/22072.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才学校第八届教职工代表大会初中部推荐代表选举会议召开&#xD;点击数：13&#xD;发表时间：17年12月14日 ">东北育才学校第八届教职工代表大会初中部推…</a></li><li><span>12-13</span><a href="/Item/22069.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：初中部：我的班主任工作困惑-----牵着蜗牛去散步&#xD;点击数：70&#xD;发表时间：17年12月13日 ">初中部：我的班主任工作困惑-----牵着蜗牛…</a></li><li><span>12-13</span><a href="/Item/22070.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：学校说|国际部举办首届“Spelling
+                Bee”英语单词拼写大赛&#xD;点击数：26&#xD;发表时间：17年12月13日 ">学校说|国际部举办首届“Spelling Bee”英…</a></li><li><span>12-12</span><a href="/Item/22068.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才实验学校初中部“家校合作”主题班主任培训综合报道&#xD;点击数：82&#xD;发表时间：17年12月12日
+                ">东北育才实验学校初中部“家校合作”主题班…</a></li><li><span>12-11</span><a href="/Item/22066.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：高中部举行一二.九长跑接力比赛&#xD;点击数：105&#xD;发表时间：17年12月11日 ">高中部举行一二.九长跑接力比赛</a></li><li><span>12-11</span><a href="/Item/22065.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：育才公开课（145期）：无处不在的“智能”&#xD;点击数：100&#xD;发表时间：17年12月11日
+                ">育才公开课（145期）：无处不在的“智能”</a></li><li><span>12-11</span><a href="/Item/22064.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：高中部每周一课之政治徐颖（第215课）&#xD;点击数：83&#xD;发表时间：17年12月11日 ">高中部每周一课之政治徐颖（第215课）</a></li><li><span>12-11</span><a href="/Item/22063.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：姚宇老师自制演示教具，通过国家知识产权总局专利审批&#xD;点击数：83&#xD;发表时间：17年12月11日 ">姚宇老师自制演示教具，通过国家知识产权总…</a></li><li><span>12-11</span><a href="/Item/22062.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：双语高中“Global songs”听歌识曲大赛&#xD;点击数：57&#xD;发表时间：17年12月11日 ">双语高中“Global  songs”听歌识曲大赛</a></li>
+
+
+
+	 </ul>
+       <ul id="con_two_2 " style="display:none ">
+
+            <li><span>06-26</span><a href="/Item/18498.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：育才牛人牛班高考后“刷屏”沈城&#xD;点击数：5956&#xD;发表时间：15年06月26日 ">育才牛人牛班高考后“刷屏”沈城</a></li><li><span>06-24</span><a href="/Item/18463.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; " title="标题：东北育才学校2015年高考再创佳绩（高考快讯二）&#xD;点击数：6886&#xD;发表时间：15年06月24日 ">东北育才学校2015年高考再创佳绩（高考快讯二）</a></li><li><span>06-24</span><a href="/Item/18452.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才学校2015年高考再创佳绩（高考快讯一）&#xD;点击数：7957&#xD;发表时间：15年06月24日
+                ">东北育才学校2015年高考再创佳绩（高考快讯一）</a></li><li><span>01-06</span><a href="/Item/15735.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才实验学校毕业生被剑桥大学三一学院录取&#xD;点击数：4698&#xD;发表时间：14年01月06日 ">东北育才实验学校毕业生被剑桥大学三一学院录取</a></li><li><span>12-23</span><a href="/Item/11564.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：我校学生获得日本留学生考试满分&#xD;点击数：5410&#xD;发表时间：11年12月23日 ">我校学生获得日本留学生考试满分</a></li><li><span>09-15</span><a href="/Item/9624.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：热烈祝贺育才学子张褚维被英国剑桥大学录取&#xD;点击数：10660&#xD;发表时间：10年09月15日
+                "><font style="&#xD;&#xA; color:#e51539;&#xD;&#xA; ">热烈祝贺育才学子张褚维被英国剑桥大学录取</font></a></li><li><span>09-26</span><a href="/Item/9623.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校举办高一学生林理河个人画展&#xD;点击数：4101&#xD;发表时间：10年09月26日
+                ">我校举办高一学生林理河个人画展</a></li><li><span>10-12</span><a href="/Item/9622.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：河北衡水中学领导教师来校参观考察&#xD;点击数：3210&#xD;发表时间：10年10月12日 ">河北衡水中学领导教师来校参观考察</a></li><li><span>10-13</span><a href="/Item/9621.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：英国校长来访育才”取经”美术音乐课&#xD;点击数：2165&#xD;发表时间：10年10月13日 ">英国校长来访育才”取经”美术音乐课</a></li>
+
+
+	 </ul>
+  <ul id="con_two_3 " style="display:none ">
+
+            <li><span>12-01</span><a href="/Item/22016.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校学生在信息学竞赛勇夺两项第一&#xD;点击数：22&#xD;发表时间：17年12月01日 ">我校学生在信息学竞赛勇夺两项第一</a></li><li><span>11-07</span><a href="/Item/20592.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; " title="标题：我校崔铭珊同学获得明天小小科学家奖励活动二等奖&#xD;点击数：407&#xD;发表时间：16年11月07日 ">我校崔铭珊同学获得明天小小科学家奖励活动二等奖</a></li><li><span>06-08</span><a href="/Item/18380.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：育才学子参加“DI”创新思维大赛勇夺全球第六&#xD;点击数：1358&#xD;发表时间：15年06月08日
+                ">育才学子参加“DI”创新思维大赛勇夺全球第六</a></li><li><span>12-06</span><a href="/Item/15584.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校学生在世界数学团体锦标赛中获全国第一&#xD;点击数：3483&#xD;发表时间：13年12月06日 ">我校学生在世界数学团体锦标赛中获全国第一</a></li><li><span>12-04</span><a href="/Item/15546.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：学科竞赛再传捷报&#xD;点击数：2868&#xD;发表时间：13年12月04日 ">学科竞赛再传捷报</a></li><li><span>05-29</span><a href="/Item/14488.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：我校学生参加全国日语演讲大赛并获奖&#xD;点击数：1683&#xD;发表时间：13年05月29日
+                ">我校学生参加全国日语演讲大赛并获奖</a></li><li><span>04-25</span><a href="/Item/14214.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：东北育才学校新疆班美术作品获奖证书展&#xD;点击数：1267&#xD;发表时间：13年04月25日 ">东北育才学校新疆班美术作品获奖证书展</a></li><li><span>09-10</span><a href="/Item/12770.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：我校学生王欣熠获辽宁省外语大赛日语组第一名&#xD;点击数：1938&#xD;发表时间：12年09月10日 ">我校学生王欣熠获辽宁省外语大赛日语组第一名</a></li><li><span>09-11</span><a href="/Item/12738.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：喜报“希望之星”英语风采大赛&#xD;点击数：2912&#xD;发表时间：12年09月11日 ">喜报“希望之星”英语风采大赛</a></li>
+
+
+	 </ul>
+       <ul id="con_two_4 " style="display:none ">
+
+            <li><span>04-07</span><a href="/Item/21077.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：长春德国国际学校师生到我校交流访问&#xD;点击数：160&#xD;发表时间：17年04月07日 ">长春德国国际学校师生到我校交流访问</a></li><li><span>03-30</span><a href="/Item/21038.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; " title="标题：日本九州大学再度到我校举办招生说明会&#xD;点击数：196&#xD;发表时间：17年03月30日 ">日本九州大学再度到我校举办招生说明会</a></li><li><span>12-20</span><a href="/Item/20789.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：交流中心讲座 ---- 外教Chris与高中部学生面对面&#xD;点击数：205&#xD;发表时间：16年12月20日
+                ">交流中心讲座 ---- 外教Chris与高中部学生面对面</a></li><li><span>12-14</span><a href="/Item/20763.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：法国INSA工程师学院招生代表再度来我校做招生宣讲&#xD;点击数：185&#xD;发表时间：16年12月14日 ">法国INSA工程师学院招生代表再度来我校做招生宣讲</a></li><li><span>06-18</span><a href="/Item/18431.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：法国班2015年期末汇报演出成功举行&#xD;点击数：888&#xD;发表时间：15年06月18日 ">法国班2015年期末汇报演出成功举行</a></li><li><span>12-15</span><a href="/Item/17588.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：国际部法国班期末汇演圆满结束&#xD;点击数：797&#xD;发表时间：14年12月15日
+                ">国际部法国班期末汇演圆满结束</a></li><li><span>04-23</span><a href="/Item/16208.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：一路欢歌，一路同行——记参加德语奥林匹克夏令营&#xD;点击数：1068&#xD;发表时间：14年04月23日 ">一路欢歌，一路同行——记参加德语奥林匹克夏令营</a></li><li><span>03-23</span><a href="/Item/15972.aspx " target="&#xD;&#xA; _blank&#xD;&#xA;
+                " title="标题：让学生的思维在这里放飞 ——记国际部法文班“袋鼠数学竞赛”&#xD;点击数：1117&#xD;发表时间：14年03月23日 ">让学生的思维在这里放飞 ——记国际部法文班“…</a></li><li><span>03-07</span><a href="/Item/15871.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; " title="标题：国际部德国学生走进宝马工厂&#xD;点击数：1445&#xD;发表时间：14年03月07日 ">国际部德国学生走进宝马工厂</a></li>
+
+
+	 </ul>
+
+
+</div>
+           </div>
+        <div class="clear "></div>
+    </div>
+
+ </div>
+
+  <!--图片开始-->
+	<div class="wrapp mtop10 ">
+    <div class="pic_more ">
+<h3><span>育才掠影</span><a id="pic1 " onmouseover="setTab( 'pic',1,4) "  class="hover " href="/Category_15/Index.aspx ">菁菁校园</a><a id="pic2 " onmouseover="setTab( 'pic',2,4) "  href="/Category_1444/Index.aspx ">领导关怀</a><a id="pic3 " onmouseover="setTab(
+                'pic',3,4) " href="/Category_46/Index.aspx ">精彩瞬间</a><a id="pic4 " onmouseover="setTab( 'pic',4,4) " href="/Category_52/Index.aspx ">毕业留念</a></h3>
+
+                    <div id="con_pic_1 " class="hover ">
+        <span id="btn1 "></span>
+			<div id="viewer ">
+
+
+<ul id="viewerFrame ">
+
+
+            <li><a href="/Item/22003.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291024167907_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/22003.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/22002.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291023585030_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/22002.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/22001.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291023401748_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/22001.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/22000.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291022535606_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/22000.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/21999.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291022159849_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/21999.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/21998.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291021581897_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/21998.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+<li><a href="/Item/21997.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2017/11/201711291021377335_S.jpg " alt="秋色育才 " width="160 " height="120 " border="0 "></a><span><a href="/Item/21997.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">秋色育才</a></span></li>
+
+
+</ul>
+
+
+			</div>
+<span id="btn2 "></span>
+
+</div>
+ <div id="con_pic_2 " style="display:none ">
+<span id="btn3 "></span>
+
+			<div id="viewer2 ">
+
+
+<ul id="viewerFrame2 ">
+
+            <li><a href="/Item/18603.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2015/7/201507201626485110_S.jpg " alt="教育部基础教育二司领导来我校调研指导工作 " width="160 " height="120 " border="0 "></a><span><a href="/Item/18603.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">教育部基础教育二司…</a></span></li>
+<li><a href="/Item/18602.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2015/7/201507201624018223_S.jpg " alt="市委常委、组织部刘桂香部长视察东北育才双语学校 " width="160 " height="120 " border="0 "></a><span><a href="/Item/18602.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">市委常委、组织部刘…</a></span></li>
+<li><a href="/Item/18601.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2015/7/201507201623146691_S.jpg " alt="中央国家机关工委常务副书记李智勇参观我校周恩来纪念馆 " width="160 " height="120 " border="0 "></a><span><a href="/Item/18601.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">中央国家机关工委常…</a></span></li>
+<li><a href="/Item/16438.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2014/5/201405291042249164_S.jpg " alt="沈阳市人大副主任徐璐及部分市人大代表视察育才学前教育 " width="160 " height="120 " border="0 "></a><span><a href="/Item/16438.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">沈阳市人大副主任徐…</a></span></li>
+<li><a href="/Item/15958.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2014/3/201403201354287655_S.jpg " alt="沈阳闵学冲副市长春节前夕慰问东北育才学校新疆部 " width="160 " height="120 " border="0 "></a><span><a href="/Item/15958.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">沈阳闵学冲副市长春…</a></span></li>
+<li><a href="/Item/13046.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2012/11/201211090837233634_S.jpg " alt="沈阳市姜军副市长视察东北育才浑南校区 " width="160 " height="120 " border="0 "></a><span><a href="/Item/13046.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">沈阳市姜军副市长视…</a></span></li>
+<li><a href="/Item/11006.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2011/9/201109061110535148_S_S.jpg " alt="辽宁省教育厅张福昌厅长莅临我校考察指导工作 " width="160 " height="120 " border="0 "></a><span><a href="/Item/11006.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">辽宁省教育厅张福昌…</a></span></li>
+
+</ul>
+
+
+			</div>
+
+
+<span id="btn4 "></span>
+</div>
+
+  <div id="con_pic_3 " style="display:none ">
+
+	<span id="btn5 "></span>
+
+			<div id="viewer3 ">
+
+
+<ul id="viewerFrame3 ">
+
+            <li><a href="/Item/7852.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/201001151119490825_S.jpg " alt="沈阳周恩来少年读书旧址纪念馆重新开馆 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7852.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">沈阳周恩来少年读书…</a></span></li>
+<li><a href="/Item/7851.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/201001151113178306_S.jpg " alt="美化家乡 养护“育才林” " width="160 " height="120 " border="0 "></a><span><a href="/Item/7851.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; ">美化家乡 养护“育…</a></span></li>
+<li><a href="/Item/7850.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/201001151111183807_S.jpg " alt="18岁成人礼暨浑河放生鱼苗学生活动 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7850.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">18岁成人礼暨浑河放…</a></span></li>
+<li><a href="/Item/7849.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/201001151107228355_S.jpg " alt="第24届辽宁省青少年科技创新大赛在东北育才学校隆重召开 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7849.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">第24届辽宁省青少年…</a></span></li>
+<li><a href="/Item/7848.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/201001151101120585_S.jpg " alt="“百家一课——聚焦课堂在育才” " width="160 " height="120 " border="0 "></a><span><a href="/Item/7848.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">“百家一课——聚焦…</a></span></li>
+<li><a href="/Item/6991.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo_UploadPhotos/200512/20051228154513525_S.jpg " alt="鳟鱼-初中部 " width="160 " height="120 " border="0 "></a><span><a href="/Item/6991.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">鳟鱼-初中部</a></span></li>
+<li><a href="/Item/6990.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo_UploadPhotos/200512/20051228154440173_S.jpg " alt="幼儿园 " width="160 " height="120 " border="0 "></a><span><a href="/Item/6990.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">幼儿园</a></span></li>
+
+</ul>
+
+
+			</div>
+
+
+<span id="btn6 "></span>
+
+</div>
+  <div id="con_pic_4 " style="display:none ">
+
+			<span id="btn7 "></span>
+
+			<div id="viewer4 ">
+
+
+<ul id="viewerFrame4 ">
+
+            <li><a href="/Item/7760.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110223938930_S.jpg " alt="东北育才学校93届高三（4）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7760.aspx
+                " target="&#xD;&#xA; _blank&#xD;&#xA; ">东北育才学校93届高…</a></span></li>
+<li><a href="/Item/7759.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110220253570_S.jpg " alt="东北育才学校93届高三（1）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7759.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校93届高…</a></span></li>
+<li><a href="/Item/7758.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110212557080_S.jpg " alt="东北育才学校93届高三（3）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7758.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校93届高…</a></span></li>
+<li><a href="/Item/7757.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110204354970_S.jpg " alt="东北育才学校93届少儿（4）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7757.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校93届少…</a></span></li>
+<li><a href="/Item/7756.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110194648740_S.jpg " alt="东北育才学校87届初三（1）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7756.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校87届初…</a></span></li>
+<li><a href="/Item/7755.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110185103540_S.jpg " alt="东北育才学校93届高三（5）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7755.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校93届高…</a></span></li>
+<li><a href="/Item/7754.aspx " target="&#xD;&#xA; _blank&#xD;&#xA; "><img src="/UploadFiles/Photo/2010/1/2010010110175891030_S.jpg " alt="东北育才学校86届高三（4）班师生毕业合影 " width="160 " height="120 " border="0 "></a><span><a href="/Item/7754.aspx " target="&#xD;&#xA;
+                _blank&#xD;&#xA; ">东北育才学校86届高…</a></span></li>
+
+</ul>
+
+			</div>
+
+
+<span id="btn8 "></span>
+</div>
+
+  </div>
+</div>
+
+
+  <!--图片结束-->
+
+<!--学部链接开始-->
+<div class="wrapp mtop10 ">
+      <div class="link ">
+         <h3>东北育才教育集团学部链接</h3>
+         <ul>
+<li><a href="http://www.neyc.cn/Category_1408/Index.aspx ">【高中部】</a></li>
+<li><a href="http://www.neyc.cn/Category_1409/Index.aspx ">【科学高中部】</a></li>
+<li><a href="http://www.neyc.cn/Category_1410/Index.aspx ">【超常教育实验部】</a></li>
+<li><a href="http://www.neyc.cn/Category_1411/Index.aspx ">【国际部(NEYCID)】</a></li>
+<li><a href="http://www.neyc.cn/Category_1407/Index.aspx ">【初中部】</a></li>
+<li><a href="http://www.neyc.cn/Category_1483/Index.aspx ">【新疆部】</a></li>
+<li><a href="http://www.yhdxhxx.com ">【东北育才丁香湖小学】</a></li>
+<li><a href="http://zel.neyc.cn/Category_1560/Index.aspx ">【总理纪念馆】</a></li>
+<li><a href="http://www.neyc.cn/Category_1412/Index.aspx ">【东北育才双语学校】</a></li>
+<li><a href="http://www.neyc.cn/Category_1418/Index.aspx ">【东北育才实验学校】</a></li>
+<li><a href="http://www.neyc.cn/Category_1417/Index.aspx ">【东北育才悲鸿美术学校】</a></li>
+<li><a href="http://www.neyc.cn/Category_1526/Index.aspx ">【东北育才幼儿园】</a></li>
+<li><a href="http://www.ycwgy.com/ ">【东北育才外国语学校】</a></li>
+       <div class="clear "></div>
+         </ul>
+      </div>
+</div>
+<!--学部链接结束-->
+
+<!--友情链接开始-->
+<div class="wrapp mtop10 ">
+      <div class="link ">
+         <h3>推荐链接</h3>
+         <ul>
+
+                <li><a href="http://www.moe.gov.cn/ " target="_blank ">中华人民共和国教育部</a></li>
+<li><a href="http://www.cse.edu.cn/ " target="_blank ">中国教育学会</a></li>
+<li><a href="http://dett.cn/ " target="_blank ">蒲公英教育智库</a></li>
+<li><a href="http://www.jyb.cn/ " target="_blank ">中国教育报</a></li>
+<li><a href="http://paper.chinateacher.com.cn " target="_blank ">中国教师报</a></li>
+<li><a href="http://www.zizzs.com/ " target="_blank ">自主招生在线</a></li>
+<li><a href="http://yun.syn.cn/ " target="_blank ">沈阳教育公共服务平台</a></li>
+<li><a href="http://www.lnstudent.com/ " target="_blank ">辽宁省学生联合会</a></li>
+<li><a href="http://mall.cnki.net/index.aspx " target="_blank ">中国知网</a></li>
+<li><a href="http://www.syzsks.com/ " target="_blank ">沈阳市招生考试网</a></li>
+<li><a href="http://www.lnzsks.com/ " target="_blank ">辽宁招生考试网</a></li>
+<li><a href="http://www.xinhuanet.com/ " target="_blank ">新华网</a></li>
+
+      <div class="clear "></div>
+         </ul>
+      </div>
+</div>
+<!--友情链接结束-->
+<!--网站正文结束-->
+<!--网站底部开始-->
+<div class="foot mtop10 ">
+     <div class="wrapp ">
+
+     <div class="bottom ">
+<h3> <a onClick="this.style.behavior='url(#default#homepage)' ;this.setHomePage( 'http://www.neyc.cn'); " href="# ">设为首页</a> |  <a href="javascript:if(document.all){window.external.addFavorite( 'http://www.neyc.cn', '东北育才学校');}else if(window.sidebar){window.sidebar.addPanel(
+                '东北育才学校', 'http://www.neyc.cn', '');} " title="加入收藏 ">加入收藏</a> |  <a href="mailto: ">联系站长</a> |  <a href="/Category_1420/Index.aspx ">友情链接</a> |  <a href="/Category_1436/Index.aspx ">版权申明</a> |  <a href="/neyc_admin/login.aspx ">管理登录</a></h3>
+<div class="copyright ">
+<table width=500 border="0 ">
+  <tr>
+    <td>
+	 Copyright◎2009 [东北育才学校]    育才 * 沈阳 * 中国
+<br>地址：沈阳市浑南新区世纪路41号  邮编：110179<br>
+网站维护电话：024-62340300 ^-^ 辽ICP备 05016620
+	</td>
+    <td><script type="text/javascript ">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/08/137/0000/41386185/CA081370000413861850001.js' type='text/javascript' %3E%3C/script%3E "));</script></td>
+  </tr>
+</table>
+
+   </div>
+
+  </div>
+
+ </div>
+</div>
+<!---网站底部结束-->
+</body>
+</html>
